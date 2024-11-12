@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_blue"
+    tools:context=".PreguntasFragment">
+
+    <!-- Contenedor de la pregunta -->
+    <LinearLayout
+        android:id="@+id/question_container"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/question_card_background"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp">
+
+        <!-- Número de Pregunta -->
+        <TextView
+            android:id="@+id/txt_NumPregunta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pregunta #"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:paddingBottom="8dp"/>
+
+        <!-- Texto de la Pregunta -->
+        <TextView
+            android:id="@+id/txt_Pregunta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿Pregunta?"
+            android:textSize="18sp"
+            android:textColor="@color/darkGray"
+            android:layout_marginTop="4dp" />
+
+        <!-- Opciones de Respuesta -->
+        <RadioGroup
+            android:id="@+id/radioGroupOpciones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+            <RadioButton
+                android:id="@+id/rdb_Opcion1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Opción 1"
+                android:textColor="@color/black"
+                android:buttonTint="@color/primaryColor" />
+
+            <RadioButton
+                android:id="@+id/rdb_Opcion2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Opción 2"
+                android:textColor="@color/black"
+                android:buttonTint="@color/primaryColor" />
+
+            <RadioButton
+                android:id="@+id/rdb_Opcion3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Opción 3"
+                android:textColor="@color/black"
+                android:buttonTint="@color/primaryColor" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <!-- Botones Volver y Siguiente -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/question_container"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginTop="16dp">
+
+        <!-- Botón Volver -->
+        <Button
+            android:id="@+id/btn_Volver"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="VOLVER"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/secondaryColor"
+            android:background="@drawable/button_background"
+            android:layout_marginEnd="8dp" />
+
+        <!-- Botón Siguiente -->
+        <Button
+            android:id="@+id/btn_Siguiente"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="SIGUIENTE"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@color/primaryColor"
+            android:background="@drawable/button_background"
+            android:layout_marginStart="8dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

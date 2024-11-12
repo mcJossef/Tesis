@@ -1,0 +1,39 @@
+{
+  "arrayPreguntas": [
+    {
+      "id_pregunta": 1,
+      "Pregunta": "¿Te sientes nervioso o estresado con frecuencia?",
+      "respuesta": "Sí",
+      "alternativa1": "No",
+      "alternativa2": "A veces"
+    },
+    {
+      "id_pregunta": 2,
+      "Pregunta": "¿Tienes dificultad para dormir debido a tus preocupaciones?",
+      "respuesta": "Sí",
+      "alternativa1": "No",
+      "alternativa2": "A veces"
+    },
+    {
+      "id_pregunta": 3,
+      "Pregunta": "¿Te resulta difícil relajarte o desconectar?",
+      "respuesta": "Sí",
+      "alternativa1": "No",
+      "alternativa2": "A veces"
+    },
+    {
+      "id_pregunta": 4,
+      "Pregunta": "¿Te irritas fácilmente?",
+      "respuesta": "Sí",
+      "alternativa1": "No",
+      "alternativa2": "A veces"
+    },
+    {
+      "id_pregunta": 5,
+      "Pregunta": "¿Sientes que no tienes tiempo para hacer cosas que disfrutas?",
+      "respuesta": "Sí",
+      "alternativa1": "No",
+      "alternativa2": "A veces"
+    }
+  ]
+}

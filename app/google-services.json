@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "454469998756",
+    "project_id": "pretesis-446bd",
+    "storage_bucket": "pretesis-446bd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454469998756:android:0ddd4c755e05cc22842e31",
+        "android_client_info": {
+          "package_name": "com.munoz.jossef.tesis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "454469998756-k1pl6na7lhldpcq82rq2dsaku4jk4b26.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.munoz.jossef.tesis",
+            "certificate_hash": "89e4022ce4dcc9c28f8add1d0d1fb594064c3b6a"
+          }
+        },
+        {
+          "client_id": "454469998756-4d26425uba5pgas940go6e2eklg2n19l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzi3KBxkVyNQLxXas-6smRr8kBFBabQZg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "454469998756-4d26425uba5pgas940go6e2eklg2n19l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
